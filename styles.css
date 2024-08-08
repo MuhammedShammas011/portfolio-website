@@ -1,0 +1,250 @@
+*{
+    margin-top: 0px;
+}
+.landing{
+  
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(175deg, rgb(0, 0, 0), rgb(24, 61, 53));
+ 
+ }
+
+#shammu1 {
+
+  font-size: 28px;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+
+}
+#shammu2,#shammu3,#shammu4,#shammu5{
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+}
+
+.logo{
+  height:600px;
+  
+  position: relative;
+  top:80px;
+
+}
+
+.name {
+  color: bisque;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 70px;
+  bottom:300px;
+  font-family: "Syne", sans-serif;
+  font-weight: bolder;
+  font-size: 75px;
+}
+.name1 {
+  color: bisque;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 70px;
+  bottom:300px;
+  font-family: "Syne", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.menuicon{
+  color: aliceblue;
+  
+}
+@media (max-width: 576px) {
+  .name{
+      font-size: 20px;
+      bottom:-150px;left:-10px;
+       }
+  .name1 {
+      font-size: 20px;
+      bottom:-150px;left:-10px;
+  }
+  .logo{
+    height:350px;
+    width:350px;
+    right:0px;
+    top:200px;
+  }
+
+}
+
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(365deg, rgb(0, 0, 0), rgb(24, 61, 53));
+  padding: 4rem 1rem; 
+}
+
+.aboutmain {
+  color: bisque;
+  font-size: 3rem;
+  font-family: "Krona One", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem; 
+}
+
+.abouttext {
+  color: antiquewhite;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  font-size: 1rem; 
+  line-height: 1.6; 
+  max-width: 800px; 
+  text-align: center; /* Center the text */
+  margin: 0 auto; /* Center the container */
+  display: block; /* Ensure text-align works */
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .aboutmain {
+      font-size: 2.5rem;
+  }
+
+  .abouttext {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutmain {
+      font-size: 2.5rem;
+  }
+
+  .abouttext {
+      font-size: 0.8rem; 
+  }
+}
+
+
+.skills {
+  background: black;
+  padding: 2rem;
+}
+
+
+.skill {
+  background-color: rgb(22, 113, 86);
+  border-radius: 10px; 
+  transition: transform 0.2s, box-shadow 0.2s; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; 
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem; 
+  overflow: hidden; 
+}
+
+.skill-logo {
+
+  width: 500px; 
+  display: flex;
+  position: relative;
+  top:25px;
+
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 30px rgba(0, 194, 197, 0.5); 
+}
+.headingskill{
+  color: bisque;
+  font-size: 3rem;
+  font-family: "Krona One", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem; 
+}
+
+
+@media (max-width: 992px) {
+  .skill {
+    height: 250px; /* Adjust height for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .skill {
+    height: 200px; /* Further adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .skill {
+    height: 180px; /* Adjust height for very small screens */
+    padding: 0.5rem; /* Reduce padding for smaller screens */
+  }
+  .skill-logo {
+    width: 300px; /* Limit image height on smaller screens */
+  }
+}
+
+.project {
+  background-color: black;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card-img-top {
+  object-fit: cover; 
+  height: 200px; 
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 0px 30px rgba(0, 194, 197, 0.5);
+}
+.projectmain{
+  color: bisque;
+  font-size: 3rem;
+  font-family: "Krona One", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem; 
+}
+
+
+
+@media (max-width: 768px) {
+  .card-img-top {
+      height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+      height: 120px; 
+  }
+}
+#contact1{
+  background: linear-gradient(175deg, rgb(0, 0, 0), rgb(24, 61, 53));
+ 
+ 
+}
+
